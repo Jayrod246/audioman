@@ -1,4 +1,4 @@
-#include <cassert>
+#include <assert.h>
 #include "stream.h"
 
 STDMETHODIMP_(ULONG) CFileStream::AddRef()

@@ -3,7 +3,7 @@
 #include "utils.h"
 #include "cmixlib.h"
 #include "todo.h"
-#include <cassert>
+#include <assert.h>
 
 STDMETHODIMP_(ULONG) CAMChannel::AddRef()
 {

@@ -1,5 +1,5 @@
 #include "debugmem.h"
-#include <cassert>
+#include <assert.h>
 #include <tchar.h>
 
 #include "dpf.h"

@@ -1,8 +1,7 @@
 #include "cmixlib.h"
 #include "dpf.h"
 #include "todo.h"
-#include <cassert>
-#include <intrin.h>
+#include <assert.h>
 
 void __stdcall slowMixSixteen(short *output, short *input, DWORD cbInput, BYTE *unused)
 {

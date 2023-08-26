@@ -1,6 +1,6 @@
 #include "cplaysnd.h"
 #include "dpf.h"
-#include <cassert>
+#include <assert.h>
 
 STDMETHODIMP_(ULONG) CAMPlaySnd::AddRef()
 {

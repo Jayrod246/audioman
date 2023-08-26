@@ -1,4 +1,4 @@
-#include <cassert>
+#include <assert.h>
 #include "riffstrm.h"
 #include "dpf.h"
 #include "riff.h"

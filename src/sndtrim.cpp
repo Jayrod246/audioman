@@ -1,6 +1,6 @@
 #include "sndtrim.h"
 #include "utils.h"
-#include <cassert>
+#include <assert.h>
 
 STDMETHODIMP_(ULONG) __stdcall CAMTrimFilter::AddRef()
 {

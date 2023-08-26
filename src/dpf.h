@@ -54,7 +54,7 @@ void DbgLogFile(LPCSTR rgchLog, BOOL fActive);
 void _dprintf(UINT uDbgLevel, LPCSTR szFormat, ...);
 
 #ifdef _DEBUG
-#define DPRINTF(level, message, ...) _dprintf(level, message, __VA_ARGS__)
+#define DPRINTF(level, message, ...) _dprintf(level, message __VA_OPT__(,) __VA_ARGS__)
 #else
 #define DPRINTF(level, message, ...)
 #endif

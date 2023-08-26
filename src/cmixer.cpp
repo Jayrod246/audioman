@@ -1,5 +1,5 @@
 #include "cmixer.h"
-#include <cassert>
+#include <assert.h>
 #include "dpf.h"
 #include "utils.h"
 #include "cplaysnd.h"

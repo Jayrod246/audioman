@@ -1,4 +1,4 @@
-#include <cassert>
+#include <assert.h>
 #include "sndpass.h"
 #include "dpf.h"
 

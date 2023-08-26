@@ -1,8 +1,8 @@
 #include "todo.h"
 #include "dpf.h"
-#include <cstdio>
-#include <cstring>
-#include <cassert>
+#include <stdio.h>
+#include <string.h>
+#include <assert.h>
 #include <Windows.h>
 
 void ShowNotImplementedMessage(const char *functionName)

@@ -1,4 +1,4 @@
-#include <cassert>
+#include <assert.h>
 #include "sndcnvt.h"
 #include "utils.h"
 #include "dpf.h"

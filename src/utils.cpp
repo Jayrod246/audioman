@@ -1,5 +1,5 @@
 #include "utils.h"
-#include <cassert>
+#include <assert.h>
 
 HRESULT HRESULTFromMMRESULT(MMRESULT mr)
 {

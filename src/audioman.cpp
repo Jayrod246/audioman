@@ -4,7 +4,7 @@
 #include "utils.h"
 #include "riffstrm.h"
 #include "riff.h"
-#include <cassert>
+#include <assert.h>
 
 // Chunk size used when writing WAVE files
 const DWORD kWriteBufferSizeMs = 60;

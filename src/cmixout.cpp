@@ -1,5 +1,5 @@
 #include "cmixout.h"
-#include <cassert>
+#include <assert.h>
 
 STDMETHODIMP_(ULONG) CMixerOut::AddRef()
 {

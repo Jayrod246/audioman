@@ -1,5 +1,5 @@
 #include "crealout.h"
-#include <cassert>
+#include <assert.h>
 
 STDMETHODIMP_(ULONG) CRealOut::AddRef()
 {

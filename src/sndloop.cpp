@@ -1,6 +1,6 @@
 #include "sndloop.h"
 #include "dpf.h"
-#include <cassert>
+#include <assert.h>
 #include "utils.h"
 
 STDMETHODIMP_(ULONG) __stdcall CAMLoopFilter::AddRef()

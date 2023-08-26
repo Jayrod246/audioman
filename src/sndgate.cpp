@@ -1,7 +1,7 @@
 #include "sndgate.h"
 #include "utils.h"
-#include <cassert>
-#include <cmath>
+#include <assert.h>
+#include <math.h>
 
 STDMETHODIMP_(ULONG) __stdcall CAMGateFilter::AddRef()
 {

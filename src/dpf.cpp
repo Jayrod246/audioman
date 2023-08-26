@@ -1,5 +1,5 @@
-#include <cstdarg>
-#include <cstdio>
+#include <stdarg.h>
+#include <stdio.h>
 #include "dpf.h"
 
 // Globals

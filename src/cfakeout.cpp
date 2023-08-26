@@ -1,7 +1,7 @@
 #include "cfakeout.h"
 #include "utils.h"
 #include "dpf.h"
-#include <cassert>
+#include <assert.h>
 #include <tchar.h>
 
 STDMETHODIMP_(ULONG) CFakeOut::AddRef()
