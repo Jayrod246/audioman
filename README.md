@@ -1,3 +1,15 @@
+(This repository exists specifically for [open3DMM](https://open3dmm.com). Any other usecase at this time is to be considered unsupported.)
+
+This is a fork of [audioman-decomp](https://github.com/benstone/audioman-decomp), packaged for Zig. Unnecessary
+files have been deleted, and the build system has been replaced with
+`build.zig`. The `upstream` branch of this repository contains a mirror of the
+original source tree. When the upstream repository is updated, the changes are
+merged from `upstream` into this `main` branch.
+
+Original README:
+
+----------------
+
 # AudioMan-Decomp
 
 This project is a decompilation of the AudioMan sound mixer library used in Microsoft 3D Movie Maker (3DMM). It is based on reverse engineering of the AudioMan debug static library, [audiod.lib](https://github.com/foone/3DMMForever/blob/main/kauai/elib/wind/audiod.lib).
