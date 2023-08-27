@@ -16,6 +16,8 @@ pub fn build(b: *std.build.Builder) void {
     lib.addIncludePath(.{ .path = "src" });
     lib.addIncludePath(.{ .path = "inc" });
     lib.installHeadersDirectory("inc", "");
+    lib.linkSystemLibrary("winmm");
+    lib.linkSystemLibrary("msacm32");
     b.installArtifact(lib);
 }
 
