@@ -12,7 +12,7 @@ pub fn build(b: *std.build.Builder) void {
     });
 
     lib.disable_sanitize_c = true;
-    lib.addCSourceFiles(audioman_sources, audioman_cflags);
+    lib.addCSourceFiles(.{ .files = audioman_sources, .flags = audioman_cflags });
     lib.addIncludePath(.{ .path = "src" });
     lib.addIncludePath(.{ .path = "inc" });
     lib.installHeadersDirectory("inc", "");
