@@ -1,6 +1,6 @@
 const std = @import("std");
 
-pub fn build(b: *std.build.Builder) void {
+pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
 
@@ -11,7 +11,7 @@ pub fn build(b: *std.build.Builder) void {
         .link_libc = true,
     });
 
-    lib.disable_sanitize_c = true;
+    lib.root_module.sanitize_c = false;
     lib.addCSourceFiles(.{ .files = audioman_sources, .flags = audioman_cflags });
     lib.addIncludePath(.{ .path = "src" });
     lib.addIncludePath(.{ .path = "inc" });
