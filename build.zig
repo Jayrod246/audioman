@@ -15,7 +15,7 @@ pub fn build(b: *std.Build) void {
     lib.addCSourceFiles(.{ .files = audioman_sources, .flags = audioman_cflags });
     lib.addIncludePath(.{ .path = "src" });
     lib.addIncludePath(.{ .path = "inc" });
-    lib.installHeadersDirectory("inc", "");
+    lib.installHeadersDirectory(.{ .path = "inc" }, "", .{});
     lib.linkSystemLibrary("winmm");
     lib.linkSystemLibrary("msacm32");
     b.installArtifact(lib);
