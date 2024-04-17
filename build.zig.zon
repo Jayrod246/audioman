@@ -1,0 +1,13 @@
+.{
+    .name = "audioman",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        "demo",
+        "inc",
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+    },
+}
